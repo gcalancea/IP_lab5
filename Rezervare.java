@@ -8,10 +8,12 @@ public class Rezervare {
 
   public Integer nrMese;
 
-  public void Rezervare(Client client, Restaurant restaurant, Integer nrMese) {
+  public Rezervare(Client client, Restaurant restaurant, Integer nrMese) {
   	this.client = client;
   	this.restaurant = restaurant;
   	this-nrMese = nrMese;
   }
+
+
 
 }
