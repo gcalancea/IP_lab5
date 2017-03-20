@@ -1,10 +1,13 @@
-import java.util.Vector;
+// Decompiled by DJ v3.10.10.93 Copyright 2007 Atanas Neshkov  Date: 3/20/2017 11:10:41 AM
+// Home Page: http://members.fortunecity.com/neshkov/dj.html http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   Restaurant.java
 
-public class Restaurant {
+package ip.lab5;
 
-    public Integer nrMese;
 
-    public String nume;
+public class Restaurant
+{
 
     public Restaurant(String numeStr, Integer nrMeseInt)
     {
@@ -12,21 +15,6 @@ public class Restaurant {
         nrMese = nrMeseInt;
     }
 
-    public void setNrMese(Integer nr )
-    {
-        this.nrMese=nr;
-    }
-
-    public Integer getNrMese() {
-        return nrMese;
-    }
-
-    public void setNume(String nume )
-    {
-        this.nume=nume;
-    }
-
-    public String getNume() {
-        return nume;
-    }
+    public Integer nrMese;
+    public String nume;
 }

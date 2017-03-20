@@ -1,24 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+// Decompiled by DJ v3.10.10.93 Copyright 2007 Atanas Neshkov  Date: 3/20/2017 11:10:41 AM
+// Home Page: http://members.fortunecity.com/neshkov/dj.html http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   Rezervare.java
+
 package ip.lab5;
 
-/**
- *
- * @author dell
- */
 
-public class Rezervare {
+// Referenced classes of package ip.lab5:
+//            Client, Restaurant
 
-  public Client client;
+public class Rezervare
+{
 
-  public Restaurant restaurant;
+    public Rezervare()
+    {
+    }
 
-  public Integer nrMese;
+    public void Rezervare(Client client1, Restaurant restaurant1, Integer integer)
+    {
+    }
 
-  public void Rezervare(Client client, Restaurant restaurant, Integer nrMese) {
-  }
-
+    public Client client;
+    public Restaurant restaurant;
+    public Integer nrMese;
 }
