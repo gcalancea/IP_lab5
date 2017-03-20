@@ -1,25 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+// Decompiled by DJ v3.10.10.93 Copyright 2007 Atanas Neshkov  Date: 3/20/2017 11:10:41 AM
+// Home Page: http://members.fortunecity.com/neshkov/dj.html http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   Restaurant.java
+
 package ip.lab5;
 
-/**
- *
- * @author dell
- */
-import java.util.Vector;
 
-public class Restaurant {
+public class Restaurant
+{
 
-  public Integer nrMese;
+    public Restaurant(String numeStr, Integer nrMeseInt)
+    {
+        nume = numeStr;
+        nrMese = nrMeseInt;
+    }
 
-  public String nume;
-
-  public Restaurant(String numeStr, Integer nrMeseInt)
-  {
-  	nume = numeStr;
-  	nrMese = nrMeseInt;
-  }
+    public Integer nrMese;
+    public String nume;
 }
