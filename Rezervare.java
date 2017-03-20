@@ -1,4 +1,14 @@
-import java.util.Vector;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ip.lab5;
+
+/**
+ *
+ * @author dell
+ */
 
 public class Rezervare {
 
@@ -7,11 +17,6 @@ public class Rezervare {
   public Restaurant restaurant;
 
   public Integer nrMese;
-
-    public Vector  myManager_Rezervari;
-    public Vector  myRestaurant;
-    public Vector  myClient;
-    public Vector  myRestaurant;
 
   public void Rezervare(Client client, Restaurant restaurant, Integer nrMese) {
   }
