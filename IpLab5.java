@@ -9,16 +9,13 @@ package ip.lab5;
  *
  * @author dell
  */
+public class IpLab5 {
 
-public class Rezervare {
-
-  public Client client;
-
-  public Restaurant restaurant;
-
-  public Integer nrMese;
-
-  public void Rezervare(Client client, Restaurant restaurant, Integer nrMese) {
-  }
-
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
 }

@@ -33,13 +33,13 @@ public class Client {
    public Vector  myRezervare;
     public Vector  myManager_Rezervari;
 
-  public void rezerva() {
+    public void rezerva() {
   }
 
   public void anuleaza(Rezervare rezervare) {
   }
 
-  public Vector<Rezervare> rezervari() {
+    public Vector<Rezervare> rezervari() {
   return null;
   }
 
