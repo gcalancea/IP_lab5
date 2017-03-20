@@ -6,9 +6,9 @@ public class Restaurant {
 
   public String nume;
 
-    public Vector  myMese;
-    public Vector  myMese;
-    public Vector  myRezervare;
-    public Vector  myRezervare;
-
+  public Restaurant(String numeStr, Integer nrMeseInt)
+  {
+  	nume = numeStr;
+  	nrMese = nrMeseInt;
+  }
 }
