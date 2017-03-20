@@ -12,10 +12,19 @@ package ip.lab5;
 import java.util.Vector;
 
 public class ManagerRezervari {
+    private static ManagerRezervari instance = null;
     private Vector <Rezervare> rezervari;
 
+    public ManagerRezervari getInstance() {
+        if(instance == null) {
+            instace = new ManagerRezervari;
+            return instance;
+        }
+        return instance;
+    }
+
     public Boolean adaugaRezervare(Integer idClient) {
-            return true;
+        return true;
     }
     public void stergeRezervare(Client client) {
         
